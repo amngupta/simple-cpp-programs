@@ -112,19 +112,23 @@ void MergeSort(int *a, int *b, int start, int end)
 
 int main()
 {
-  // int p[4] = {2,3,5,1};
-  // int * test;
-  // int * hell = new int[4];
-  // for(int i=0;i<4;++i)
-  // 	*(hell+i) = 4-i;
-  // for(int i=0;i<4;++i)
-  //        cout<<" "<<*(hell+i);
-  //    cout << endl;
-  // MergeSort(hell, 4);
-  // for(int i=0;i<4;++i)
-  //        cout<<" "<<*(hell+i);
-  //    cout << endl;
-  //   	return 0;
+  int p[4] = {2, 3, 5, 1};
+  int *test;
+  int *test2 = new int[4];
+  
+  for (int i = 0; i < 4; ++i)
+    *(test2 + i) = 4 - i;
+  
+  for (int i = 0; i < 4; ++i)
+    cout << " " << *(test2 + i);
+  cout << endl;
+
+  InsertionSort(test2, 4);
+
+  for (int i = 0; i < 4; ++i)
+    cout << " " << *(test2 + i);
+  cout << endl;
+  return 0;
 
   int num;
   cout << "How many numbers do you want to sort: ";
