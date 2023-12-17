@@ -20,7 +20,7 @@ int main()
 	cout << "You entered 3.";
 	break;
     case 4:
-	cout << "You entered 4.";
+	cout << "You newwwwww 4.";
 	break;
     case 5:
 	cout << "You entered 5.";
