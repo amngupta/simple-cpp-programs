@@ -26,7 +26,7 @@ int main()
 	cout << "You entered 5.";
 	break;
     default:
-	cout << "Invalid input.";
+	cout << "Edited in Master.";
     }
 
     return 0;
